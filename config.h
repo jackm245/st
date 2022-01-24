@@ -8,7 +8,7 @@
 // static char *font = "DejaVu Sans Mono Nerd Font Complete:size=16";
 static char *font = "DejaVuSansMono Nerd Font:pixelsize=16";
 // static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
-static char *font2[] = { "DejaVuSansMono Nerd Font:pixelsize=16:antialias=true:autohint=true" };
+static char *font2[] = { "Symbola:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -115,28 +115,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
+    "#0c0e15", // black
+	"#f65866", // red
+	"#8bcd5b", // green
+	"#efbd5d", // yellow
+	"#41a7fc", // blue
+	"#c75ae8", // pink
+	"#34bfd0", // cyan
+	"#455574", // grey
+    "#0c0e15", // black
+	"#f65866", // red
+	"#8bcd5b", // green
+	"#efbd5d", // yellow
+	"#41a7fc", // blue
+	"#c75ae8", // pink
+	"#34bfd0", // cyan
+	"#455574", // grey
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#2b3339", /* 258 -> bg */
-	"#d3c6aa", /* 259 -> fg */
+	"#c75ae8", /* 256 -> cursor */
+	"#6c7d9c", /* 257 -> rev cursor*/
+	"#1a212e", /* 258 -> bg */
+	"#6c7d9c", /* 259 -> fg */
 };
 
 
